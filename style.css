@@ -109,31 +109,37 @@ nav a {
 
 /* --------------Main Header------------- */
 .main-header {
-    min-height: 100vh;
+    height: 100vh;
     background-image: url(/assets/main-hero-background.png);
     background-size: cover;
     overflow: hidden;
+    display: grid;
+    place-items: center;
 }
 
 .container-main-header {
     width: 80%;
     max-width: 1340px;
     margin: auto;
-    padding-top: 10.5rem;
-    padding-bottom: 16.6666666667%;
+    /* padding-top: 10.5rem;
+    padding-bottom: 16.6666666667%; */
 }
 
 .hero-content {
-    max-width: 450px;
+    width: 70%;
+}
+
+.container-header-hero-content {
+    width: 80%;
+    /* text-align: center; */
 }
 
 .hero-content h1 {
-    min-width: 450px;
-    font-size: clamp(3.475rem, 3.5vw, 4rem);
-    font-weight: 400;
+    /* min-width: 450px; */
+    font-size: clamp(1.5rem, 3.5vw, 4rem);
+    font-weight: 700;
     line-height: 1.2em;
     color: var(--blue-color);
-    text-align: justify;
 }
 
 .hero-content p {
@@ -184,11 +190,16 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5rem;
+    /* gap: 15rem; */
 }
 
+.hero-image {
+    text-align: right;
+    width: 40%;
+    /* padding-left: 10rem; */
+}
 .hero-image img {
-    width: 350px;
+    width: 70%;
 }
 /* -------------------------------------- */
 
@@ -1061,6 +1072,11 @@ nav a {
     .hero-content h1 {
         text-align: center;
     }
+
+    .container-header-hero-content {
+        margin: 0 auto;
+    }
+    
 }
 /* ---------------Deskstop--------------- */
 @media screen and (max-width: 1024px) {
