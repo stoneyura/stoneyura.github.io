@@ -128,6 +128,7 @@ nav a {
 }
 
 .hero-content h1 {
+    min-width: 450px;
     font-size: clamp(3.475rem, 3.5vw, 4rem);
     font-weight: 400;
     line-height: 1.2em;
@@ -148,6 +149,7 @@ nav a {
 
 .button-main-hero {
     width: 40%;
+    min-width: 95px;
     max-width: 150px;
     border-radius: 25px;
     position: relative;
@@ -161,8 +163,9 @@ nav a {
 .anchor-text-btn-main-hero {
     font-size: clamp(1rem, 1.5vw, 1.5625rem);
     line-height: 1.255em;
-    padding-block: 0.2em;
-    padding-left: 0.6em;
+    padding: 0.2em 0.6em;
+    /* padding-block: 0.2em;
+    padding-left: 0.6em; */
     text-decoration: none;
     display: inline-block;
     color: var(--blue-color);
@@ -282,8 +285,9 @@ nav a {
 .anchor-text {
     font-size: clamp(1rem, 2vw ,1.875rem);
     line-height: 1.255em;
-    padding-left: 1em;
-    padding-block: 0.2em;
+    padding: 0.2em 1em;
+    /* padding-left: 1em;
+    padding-block: 0.2em; */
     text-decoration: none;
     display: inline-block;
     color: #EEEFC2;
@@ -314,9 +318,14 @@ nav a {
 /* ------------------------------------- */
 
 /* ------------Button------------ */
-.button-slc {
+.container-button-slc {
     width: 30%;
+    min-width: 140px;
     max-width: 400px;
+}
+.button-slc {
+    /* width: 30%; */
+    /* max-width: 400px; */
     border-radius: 25px;
     position: relative;
     background-image: url(/assets/icon-texture.png);
@@ -414,6 +423,7 @@ nav a {
 .button-staff {
     margin: 0 auto;
     width: 40%;
+    min-width: 140px;
     max-width: 400px;
     border-radius: 25px;
     position: relative;
@@ -429,7 +439,7 @@ nav a {
     font-size: clamp(1rem, 2vw ,1.875rem);
     line-height: 1.255em;
     padding-block: 0.2em;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-decoration: none;
     display: inline-block;
     color: var(--blue-color);
@@ -604,6 +614,7 @@ nav a {
 
 .button-header-comp {
     width: 60%;
+    min-width: 340px;
     max-width: 400px;
     border-radius: 25px;
     position: relative;
@@ -633,8 +644,9 @@ nav a {
 .anchor-text-btn-comp {
     font-size: clamp(1rem, 2vw ,1.875rem);
     line-height: 1.255em;
-    padding-block: 0.2em;
-    padding-left: 1em;
+    padding: 0.2em 1em;
+    /* padding-block: 0.2em;
+    padding-left: 1em; */
     text-decoration: none;
     display: inline-block;
     color: #FFFFFF;
@@ -642,6 +654,7 @@ nav a {
 
 .button-competitions {
     width: 30%;
+    min-width: 100px;
     max-width: 300px;
     border-radius: 20px;
     position: relative;
@@ -701,6 +714,7 @@ nav a {
 .button-coming-soon {
     margin: 0 auto;
     width: 20%;
+    min-width: 140px;
     max-width: 400px;
     border-radius: 25px;
     position: relative;
@@ -716,7 +730,7 @@ nav a {
     font-size: clamp(1rem, 2vw ,1.875rem);
     line-height: 1.255em;
     padding-block: 0.2em;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-decoration: none;
     display: inline-block;
     color: var(--blue-color);
@@ -747,7 +761,7 @@ nav a {
 .car-1 {
     width: 40%;
     position: absolute;
-    bottom: -20px;
+    bottom: 0px;
     left: -20px;
 }
 
@@ -759,10 +773,10 @@ nav a {
 }
 
 .palm-2 {
-    width: 40%;
+    width: 30%;
     position: absolute;
     right: -20px;
-    bottom: -100px;
+    bottom: 0.5%;
 }
 /* ------------------------------------------ */
 
@@ -1024,6 +1038,29 @@ nav a {
         z-index: 11;
     }
 
+    .radio-3 {
+        display: none;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .button-main-hero {
+        margin: 0 auto;
+    }
+
+    .hero-content p {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        text-align: center;
+    }
 }
 /* ---------------Deskstop--------------- */
 @media screen and (max-width: 1024px) {
