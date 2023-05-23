@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Myfont;
+    src: url(assets/Love-Craft.ttf);
+}
+
 :root {
     --orange-color: rgb(191, 83, 6);
     --purple-color: rgb(117, 14, 101);
@@ -11,6 +16,10 @@
     --green-color: rgb(0, 149, 147);
     --gray-color: #D9D9D9;
     --green-2-color: rgb(1, 91, 117);
+}
+
+h1 {
+    font-family: Myfont;
 }
 
 a,p {
