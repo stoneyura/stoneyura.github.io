@@ -50,12 +50,13 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
     font-weight: 700;
 }
 
-.nav-logo h2 {
-    color: #fff;
+.nav-logo a {
+    color: #FFFFFF;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -72,34 +73,54 @@ nav a {
     background-size: cover;
 }
 
-.radio-3 {
+/* .radio-3 {
     width: 25%;
     position: absolute;
     right: 10%;
     bottom: 20%;
     z-index: 2;
-}
+} */
+
 
 .container-about-us {
     width: 80%;
-    max-width: 1340px;
+    max-width: 1140px;
     margin: 0 auto;
     padding-top: 19.0104166667%;
     padding-bottom: 34.375%;
 }
 
-.container-about-us h2 {
-    font-size: clamp(1.3125rem, 2vw, 2.1875rem);
-    padding-bottom: 0.71428571428em;
+.content-about-us h2 {
+    font-size: clamp(1.4125rem, 2vw, 2.1875rem);
     color: #EAEBC0;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
-.container-about-us p {
-    font-size: clamp(1rem, 2vw, 1.5625rem);
+.content-about-us h4 {
+    font-size: clamp(1rem, 2vw, 1.4625rem);
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
     text-align: justify;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 800;
+    padding-block: 0.5em;
+}
+.content-about-us p {
+    font-size: clamp(1rem, 2vw, 1.4625rem);
+    text-align: justify;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 0.5em;
+    padding-bottom: 1.25em;
+}
+
+.jargon p {
+    font-size: clamp(1rem, 2vw, 1.4625rem);
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 0.5em;
+    padding-bottom: 1.25em;
+    text-align: center;
 }
 
 .top_cloud {
@@ -114,6 +135,7 @@ nav a {
     bottom: 0;
     z-index: 3;
 }
+
 /* ------------------------------------- */
 
 /* --------------Main Header------------- */
@@ -125,33 +147,65 @@ nav a {
     display: grid;
     place-items: center;
 }
+.container-hero {
+    padding-top: calc(100px + 2.604166666666667%);
+    padding-bottom: 3.645833333333333%;
+}
+.hero-image {
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-image img {
+    width: 65%;
+}
+.hero-content {
+    text-align: center;
+}
+.hero-content h1 {
+    text-align: center;
+    font-size: clamp(2rem, 3.5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #FFFFFF;
+    padding-block: 0.65em;
+}
+/* .main-header {
+    min-height: 100vh;
+    background-image: url(/assets/main-hero-background.png);
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+} */
 
-.container-main-header {
+/* .container-main-header {
     width: 80%;
     max-width: 1340px;
     margin: auto;
-    /* padding-top: 10.5rem;
-    padding-bottom: 16.6666666667%; */
-}
+    padding-top: 10.5rem;
+    padding-bottom: 16.6666666667%;
+} */
 
-.hero-content {
+/* .hero-content {
     width: 70%;
-}
+} */
 
-.container-header-hero-content {
+/* .container-header-hero-content {
+    margin: 0 auto;
     width: 80%;
-    /* text-align: center; */
-}
+    text-align: center;
+} */
 
-.hero-content h1 {
-    /* min-width: 450px; */
+/* .hero-content h1 {
+    min-width: 450px;
+    text-align: center;
     font-size: clamp(1.5rem, 3.5vw, 4rem);
     font-weight: 700;
     line-height: 1.2em;
-    color: var(--blue-color);
-}
+    color: #FFFFFF;
+} */
 
-.hero-content p {
+/* .hero-content p {
     font-size: clamp(1rem, 2vw, 1.5625rem);
     font-weight: 400;
     line-height: 1.2em;
@@ -160,9 +214,9 @@ nav a {
     position: relative;
     z-index: 3;
     text-align: justify;
-}
+} */
 
-.button-main-hero {
+/* .button-main-hero {
     width: 40%;
     min-width: 95px;
     max-width: 150px;
@@ -173,43 +227,42 @@ nav a {
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
-.anchor-text-btn-main-hero {
+/* .anchor-text-btn-main-hero {
     font-size: clamp(1rem, 1.5vw, 1.5625rem);
     line-height: 1.255em;
     padding: 0.2em 0.6em;
-    /* padding-block: 0.2em;
-    padding-left: 0.6em; */
+    padding-block: 0.2em;
+    padding-left: 0.6em;
     text-decoration: none;
     display: inline-block;
     color: var(--blue-color);
     font-weight: 700;
-}
+} */
 
-.icon-main-hero {
+/* .icon-main-hero {
     width: 40%;
     position: absolute;
     top: 50%;
     left: 90%;
     transform: translate(-50%, -50%);
-}
+} */
 
-.hero {
-    display: flex;
+/* .hero {
     align-items: center;
     justify-content: space-between;
-    /* gap: 15rem; */
-}
+} */
 
-.hero-image {
-    text-align: right;
+/* .hero-image {
+    text-align: center;
     width: 40%;
-    /* padding-left: 10rem; */
-}
-.hero-image img {
-    width: 70%;
-}
+    margin: 0 auto;
+    padding-left: 10rem;
+} */
+/* .hero-image img {
+    width: 80%;
+} */
 /* -------------------------------------- */
 
 /* ----------------Header-hero------------------ */
@@ -220,6 +273,8 @@ nav a {
     padding-top: 7.5rem;
     padding-bottom: 10.15625%;
     min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 /* ------------------------------------------ */
 
@@ -328,7 +383,7 @@ nav a {
 }
 
 .merchandise-slc {
-    background-image: url(/assets/background-4.png);
+    background-image: url(/assets/background-5.png);
     background-size: cover;
 }
 
@@ -344,6 +399,7 @@ nav a {
     min-width: 140px;
     max-width: 400px;
 }
+
 .button-slc {
     /* width: 30%; */
     /* max-width: 400px; */
@@ -365,7 +421,7 @@ nav a {
 }
 
 .slc-3 {
-    background-color: var(--green-color);
+    background-color: var(--blue-color);
     background-blend-mode: multiply;
 }
 
@@ -394,8 +450,8 @@ nav a {
     width: 80%;
     max-width: 700px;
     margin: 0 auto;
-    padding-top: 19.0104166667%;
-    padding-bottom: 34.375%;
+    /* padding-top: 0.5rem;
+    padding-bottom: 1rem; */
 }
 
 .wrapper {
@@ -803,7 +859,7 @@ nav a {
 
 
 /* --------------Merchandise.html------------ */
-.Merchandise {
+/* .Merchandise {
     display: grid;
     place-items: center;
     background-image: url(/assets/merch-background.png);
@@ -860,6 +916,117 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: black;
+} */
+
+.merchan-header {
+    min-height: 100vh;
+    padding-top: calc(100px + 1.041666666666667%);
+    padding-bottom: 1.041666666666667%;
+    background-image: url(/assets/background-9.png);
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+
+}
+
+.merchan-header-container {
+    width: 80%;
+    max-width: 1495px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+.header-merchan-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-merchan-content h1 {
+    text-align: center;
+    font-size: clamp(2.25rem, 4.5vw, 5rem);
+    color: #FFFFFF;
+}
+
+.header-merchan-img {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.img-merchan-header {
+    width: 80%;
+}
+
+.merchandises {
+    padding-top: 180px;
+    padding-bottom: 7.8125%;
+    background-image: url(assets/background-8.png);
+    background-size: cover;
+    /* display: grid;
+    place-items: center; */
+}
+
+.merchandise {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.merchandise-box {
+    background-color: var(--green-color);
+    display: flex;
+    margin-bottom: 10.8695652173913%;
+    padding-block: 1rem;
+    box-shadow: 5px 5px 20px black;
+}
+
+.img-merchan {
+    width: 60%;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* min-width: 615px; */
+}
+
+.item-type {
+    width: 60%;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+}
+
+.item-type h2 {
+    text-align: center;
+    font-size: clamp(2.25rem, 4.5vw, 4.75rem);
+    color: var(--blue-color);
+    text-shadow: 3px 3px #FFFFFF;
+    font-weight: 900;
+    padding-block: 0.5em;
+}
+
+.merchandise-button {
+    margin: 0 auto;
+    width: 40%;
+    min-width: 140px;
+    max-width: 400px;
+    border-radius: 25px;
+    position: relative;
+    background-image: url(/assets/icon-texture.png);
+    background-color: var(--orange-color);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.anchor-text-btn-merchan {
+    font-size: clamp(1rem, 2vw ,1.875rem);
+    line-height: 1.255em;
+    padding: 0.2em 1em;
+    /* padding-left: 1em;
+    padding-block: 0.2em; */
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 700;
 }
 /* ------------------------------------------- */
 
@@ -888,10 +1055,41 @@ nav a {
     padding-bottom: 2.23880597015%;
 }
 
-.row-2 {
-    display: flex;
+.row-2 p {
     text-align: center;
+    font-size: clamp(0.5rem, 1.75vw, 1rem);
+    font-weight: 700;
+    line-height: 1.81em;
+    padding-block: 1em;
+    color: #FFFFFF;
+}
+
+.row-2 h3 {
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: clamp(0.75rem, 1.75vw, 1.25rem);
+    font-weight: 700;
+    line-height: 1.81em;
+    padding-block: 1em;
+    color: #FFFFFF;
+}
+.row-2 ul {
+    width: 30%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
+}
+
+.row-2 ul li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: clamp(1rem, 1.75vw, 3.5rem);
+}
+
+.row-2 ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .coloumn-1 {
@@ -933,11 +1131,11 @@ nav a {
 }
 
 .coloumn-3 p {
-    text-align: justify;
+    text-align: center;
     padding: 0.2em;
 }
 
-.coloumn-4 h2 {
+/* .coloumn-4 h2 {
     font-size: clamp(1rem, 1.75vw, 1.5625rem);
     font-weight: 700;
     line-height: 1.81em;
@@ -949,7 +1147,7 @@ nav a {
     line-height: 1.81em;
     font-weight: 700;
     color: #FFFFFF;
-}
+} */
 /* ------------------------------------------ */
 
 /* ---------------------------------RESPONSIVE------------------------------------ */
@@ -1067,9 +1265,9 @@ nav a {
         justify-content: center;
     }
 
-    .hero-image {
+    /* .hero-image {
         display: none;
-    }
+    } */
 
     .button-main-hero {
         margin: 0 auto;
@@ -1086,10 +1284,13 @@ nav a {
     .container-header-hero-content {
         margin: 0 auto;
     }
-    
+    .merchandise-box {
+        flex-wrap: wrap;
+    }
+
 }
 /* ---------------Deskstop--------------- */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .radio-1 {
         width: 25%;
         position: absolute;
@@ -1106,4 +1307,19 @@ nav a {
         z-index: 11;
     }
 
-}
+    .merchan-header-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-merchan-content {
+        flex: 1;
+    }
+
+    .header-merchan-img {
+        flex: 2;
+    }
+    .header-merchan-content h1 {
+        text-align: right;
+    }
+}   
