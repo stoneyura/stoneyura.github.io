@@ -602,10 +602,12 @@ nav a {
 }
 
 .container-competitions {
-    width: 70%;
+    /* width: 70%; */
     max-width: 1340px;
     margin: auto;
     padding: 13.3333333333% 2.60416666667% 7.29166666667% 2.60416666667%;
+    position: relative;
+    z-index: 30;
 }
 
 .header-content h2 {
@@ -1069,6 +1071,7 @@ nav a {
     padding-block: 1em;
     color: #FFFFFF;
 }
+
 .row-2 ul {
     width: 30%;
     max-width: 200px;
@@ -1089,7 +1092,7 @@ nav a {
 }
 
 .coloumn-1 {
-    font-size: clamp(0.75rem, 1.75vw, 1.25rem);
+    font-size: clamp(0.55rem, 1.75vw, 1.25rem);
     font-weight: 700;
     line-height: 1.25em;
     flex: 2;
@@ -1097,7 +1100,8 @@ nav a {
 }
 
 .coloumn-2 {
-    font-size: clamp(0.75rem, 1.75vw, 1.25rem);
+    font-family: 'Mulish', sans-serif;
+    font-size: clamp(0.55rem, 1.75vw, 1.25rem);
     font-weight: 400;
     line-height: 1.25em;
     list-style: none;
@@ -1118,7 +1122,8 @@ nav a {
 }
 
 .coloumn-3 {
-    font-size: clamp(0.75rem, 1.75vw, 1.25rem);
+    font-family: 'Mulish', sans-serif;
+    font-size: clamp(0.55rem, 1.75vw, 1.25rem);
     font-weight: 400;
     line-height: 1.25em;
     text-align: center;
