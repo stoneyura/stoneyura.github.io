@@ -940,10 +940,10 @@ nav a {
 .header-merchan-content {
     width: 90%;
     /* max-width: 1495px; */
-    margin: 0 auto;
 }
 
 .header-merchan-content h1 {
+    margin: 0 auto;
     text-align: center;
     font-size: clamp(2.25rem, 4.5vw, 5rem);
     color: #FFFFFF;
