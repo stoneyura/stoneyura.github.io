@@ -937,11 +937,6 @@ nav a {
     /* display: flex; */
 }
 
-.header-merchan-content {
-    width: 90%;
-    /* max-width: 1495px; */
-}
-
 .header-merchan-content h1 {
     margin: 0 auto;
     text-align: center;
