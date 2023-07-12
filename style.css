@@ -270,8 +270,8 @@ nav a {
     width: 80%;
     max-width: 1340px;
     margin: 0 auto;
-    padding-top: 7.5rem;
-    padding-bottom: 10.15625%;
+    /* padding-top: 7.5rem;
+    padding-bottom: 10.15625%; */
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -1044,7 +1044,7 @@ nav a {
 .container-footer hr {
     border-radius: 6.5px;
     background-color: #D9D9D9;
-    height: 10px;
+    height: 5px;
 }
 
 .row-1 {
